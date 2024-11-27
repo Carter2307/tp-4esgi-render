@@ -4,6 +4,7 @@ services:
     name: web-app
     runtime: node
     repo: https://github.com/Carter2307/tp-4esgi-render.git
+    buildCommand: "npm i"
     startCommand: "npm start"
     envVars: 
       - key: DATABASE_URL
